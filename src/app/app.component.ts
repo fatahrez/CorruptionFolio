@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import * as data from './../Model/data.json';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +10,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'corruptionportfolio';
+  title = 'Corruption-Folio';
+  leaders: any = (data as any).default;
+
 }

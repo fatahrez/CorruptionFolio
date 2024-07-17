@@ -1,0 +1,28 @@
+@use './../theme';
+
+.container {
+    .header-title {
+        font-family: 'Playfair Display', serif !important;
+        font-weight: normal;
+        padding: 32px;
+        color: theme.$md-sys-color-on-surface-variant;
+    }
+
+    .hero-text {
+        font-family: 'Roboto', sans-serif;
+        color: theme.$md-sys-color-on-surface;
+        padding: 0;
+    }
+
+    .aboutaction {
+        font-family: 'Playfair Display', serif !important;
+        font-weight: normal;
+        padding-block: 16px;
+    }
+
+    .aboutaction-text {
+        font-family: 'Roboto', sans-serif;
+        color: theme.$md-sys-color-on-surface;
+        padding: 0;
+    }
+}
