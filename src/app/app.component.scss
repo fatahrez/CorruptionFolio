@@ -25,4 +25,18 @@
         color: theme.$md-sys-color-on-surface;
         padding: 0;
     }
+    
+    ul {
+
+        mat-card {
+            margin: 15px;
+            width: 15vw;
+            height: 15vw;
+    
+            img {
+                
+            }
+        }
+    }
+
 }

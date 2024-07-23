@@ -12,10 +12,17 @@
   </ul>
 
   <ul>
-    @for (leader of leaders; track $index) {
-      <li>
-        <p>{{leader.name}}</p>
-      </li>
-    }
+    <div class="row">
+      @for (leader of leaders; track $index) {
+        <div class="col-md-4">
+          <mat-card>
+            <img src="{{leader.imageUrl}}"/>
+            <p>{{leader.name}}</p>
+          </mat-card>
+        </div>
+      }
+
+    </div>
+
   </ul>
 </div>

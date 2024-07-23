@@ -20,5 +20,71 @@
             "Safaricom: 400,000 shares",
             "Kenya Airways: 80,000 shares"
         ]
+    },
+    {
+        "id": 1,
+        "name": "William Ruto",
+        "position": "President of Kenya",
+        "imageUrl": "https://th.bing.com/th/id/OIP.VwR1hnq3A0SkAkc4QOAPdAHaHa?rs=1&pid=ImgDetMain",
+        "businesses_owned": [
+            "Matiny Limited",
+            "Amaco",
+            "Weston Hotel",
+            "Dolphine Hotel",
+            "Yegen Farms",
+            "Taita Taveta Land",
+            "Koilel Farm"
+        ],
+        "property_owned": [
+            ""
+        ],
+        "investments": [
+            "Safaricom: 400,000 shares",
+            "Kenya Airways: 80,000 shares"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "William Ruto",
+        "position": "President of Kenya",
+        "imageUrl": "https://th.bing.com/th/id/OIP.VwR1hnq3A0SkAkc4QOAPdAHaHa?rs=1&pid=ImgDetMain",
+        "businesses_owned": [
+            "Matiny Limited",
+            "Amaco",
+            "Weston Hotel",
+            "Dolphine Hotel",
+            "Yegen Farms",
+            "Taita Taveta Land",
+            "Koilel Farm"
+        ],
+        "property_owned": [
+            ""
+        ],
+        "investments": [
+            "Safaricom: 400,000 shares",
+            "Kenya Airways: 80,000 shares"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "William Ruto",
+        "position": "President of Kenya",
+        "imageUrl": "https://th.bing.com/th/id/OIP.VwR1hnq3A0SkAkc4QOAPdAHaHa?rs=1&pid=ImgDetMain",
+        "businesses_owned": [
+            "Matiny Limited",
+            "Amaco",
+            "Weston Hotel",
+            "Dolphine Hotel",
+            "Yegen Farms",
+            "Taita Taveta Land",
+            "Koilel Farm"
+        ],
+        "property_owned": [
+            ""
+        ],
+        "investments": [
+            "Safaricom: 400,000 shares",
+            "Kenya Airways: 80,000 shares"
+        ]
     }
 ]
