@@ -14,7 +14,7 @@
     <ul>
       <div class="row">
         @for (leader of leaders; track $index) {
-          <div class="col-md-4">
+          <div routerLink="leader/{{leader.id}}" class="col-md-4">
             <mat-card>
               <img src="{{leader.imageUrl}}"/>
               <p>{{leader.name}}</p>
