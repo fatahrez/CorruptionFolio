@@ -1,0 +1,28 @@
+<div class="container">
+    <h1 class="text-center header-title">Corruption-Folio</h1>
+    <p class="hero-text">
+      As you know what is going on in Kenya currently where Ruto and his corrupt leaders are killing the youth because they are speaking out about long going corruption that’s been going on for a long time. If you don’t have enough information please check this link <a href="https://x.com/search?q=%23RutoMustGo&src=typed_query" target="_blank">#RutoMustGo</a> .
+    </p>
+    <h3 class="aboutaction">About & Action</h3>
+    <p class="aboutaction-text">This website is created for those who want to take action and showing the selfish leaders for what they are. Here is what I want you to do:</p>
+    <ul>
+      <li>Boycott any business in these lists</li>
+      <li>If you know info of what investments and businesses any corrupt leader owns share with me on X/Twitter. <a href="https://x.com/fatahrez">&#64;fatahrez</a></li>
+      <li>Share this website with any Kenyan and lets fight impunity together. #RutoMustGo</li>
+    </ul>
+  
+    <ul>
+      <div class="row">
+        @for (leader of leaders; track $index) {
+          <div class="col-md-4">
+            <mat-card>
+              <img src="{{leader.imageUrl}}"/>
+              <p>{{leader.name}}</p>
+            </mat-card>
+          </div>
+        }
+  
+      </div>
+  
+    </ul>
+  </div>
