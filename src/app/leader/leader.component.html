@@ -1,1 +1,35 @@
-<p>leader works! {{leader.id}}</p>
+@if (leader) {
+    <div class="leader-container">
+        <h1>{{ leader.name }}</h1>
+        <div class="leader-details">
+            <div class="leader-info">
+            <p><strong>ID:</strong> {{ leader.id }}</p>
+            <p><strong>Age:</strong> {{ leader.age }}</p>
+            <p><strong>Position:</strong> {{ leader.position }}</p>
+            <p><strong>Qualifications:</strong> {{ leader.qualifications }}</p>
+            </div>
+            <div class="leader-corruption">
+            <h2>Corruption Details</h2>
+            <div class="stolen-funds">
+                <h3>Stolen Funds</h3>
+                <ul>
+                    @for (fund of leader.stolenFunds; track $index) {
+                        {{ fund.amount }} - {{ fund.year }}
+                    }
+                <!-- <li *ngFor="let fund of leader.stolenFunds">
+                    {{ fund.amount }} - {{ fund.year }}
+                </li> -->
+                </ul>
+            </div>
+            <div class="scandals">
+                <h3>Scandals</h3>
+                <ul>
+                    @for (scandal of leader.scandals; track $index) {
+                        {{ scandal }}
+                    }
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+}

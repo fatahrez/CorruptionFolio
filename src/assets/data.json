@@ -1,90 +1,34 @@
 [
     {
-        "id": 1,
-        "name": "William Ruto",
-        "position": "President of Kenya",
-        "imageUrl": "https://th.bing.com/th/id/OIP.VwR1hnq3A0SkAkc4QOAPdAHaHa?rs=1&pid=ImgDetMain",
-        "businesses_owned": [
-            "Matiny Limited",
-            "Amaco",
-            "Weston Hotel",
-            "Dolphine Hotel",
-            "Yegen Farms",
-            "Taita Taveta Land",
-            "Koilel Farm"
-        ],
-        "property_owned": [
-            ""
-        ],
-        "investments": [
-            "Safaricom: 400,000 shares",
-            "Kenya Airways: 80,000 shares"
-        ]
+      "id": 1,
+      "name": "John Doe",
+      "age": 50,
+      "position": "President",
+      "imageUrl": "https://th.bing.com/th/id/OIP.VwR1hnq3A0SkAkc4QOAPdAHaHa?rs=1&pid=ImgDetMain",
+      "qualifications": "PhD in Political Science",
+      "stolenFunds": [
+        { "amount": "$1,000,000", "year": 2018 },
+        { "amount": "$500,000", "year": 2020 }
+      ],
+      "scandals": [
+        "Corruption scandal in 2018",
+        "Bribery scandal in 2020"
+      ]
     },
     {
-        "id": 2,
-        "name": "William Ruto",
-        "position": "President of Kenya",
-        "imageUrl": "https://th.bing.com/th/id/OIP.VwR1hnq3A0SkAkc4QOAPdAHaHa?rs=1&pid=ImgDetMain",
-        "businesses_owned": [
-            "Matiny Limited",
-            "Amaco",
-            "Weston Hotel",
-            "Dolphine Hotel",
-            "Yegen Farms",
-            "Taita Taveta Land",
-            "Koilel Farm"
-        ],
-        "property_owned": [
-            ""
-        ],
-        "investments": [
-            "Safaricom: 400,000 shares",
-            "Kenya Airways: 80,000 shares"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "William Ruto",
-        "position": "President of Kenya",
-        "imageUrl": "https://th.bing.com/th/id/OIP.VwR1hnq3A0SkAkc4QOAPdAHaHa?rs=1&pid=ImgDetMain",
-        "businesses_owned": [
-            "Matiny Limited",
-            "Amaco",
-            "Weston Hotel",
-            "Dolphine Hotel",
-            "Yegen Farms",
-            "Taita Taveta Land",
-            "Koilel Farm"
-        ],
-        "property_owned": [
-            ""
-        ],
-        "investments": [
-            "Safaricom: 400,000 shares",
-            "Kenya Airways: 80,000 shares"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "William Ruto",
-        "position": "President of Kenya",
-        "imageUrl": "https://th.bing.com/th/id/OIP.VwR1hnq3A0SkAkc4QOAPdAHaHa?rs=1&pid=ImgDetMain",
-        "businesses_owned": [
-            "Matiny Limited",
-            "Amaco",
-            "Weston Hotel",
-            "Dolphine Hotel",
-            "Yegen Farms",
-            "Taita Taveta Land",
-            "Koilel Farm"
-        ],
-        "property_owned": [
-            ""
-        ],
-        "investments": [
-            "Safaricom: 400,000 shares",
-            "Kenya Airways: 80,000 shares"
-        ]
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 45,
+      "position": "Prime Minister",
+      "imageUrl": "https://th.bing.com/th/id/OIP.VwR1hnq3A0SkAkc4QOAPdAHaHa?rs=1&pid=ImgDetMain",
+      "qualifications": "Master in Economics",
+      "stolenFunds": [
+        { "amount": "$2,000,000", "year": 2017 },
+        { "amount": "$800,000", "year": 2019 }
+      ],
+      "scandals": [
+        "Misuse of public funds in 2017",
+        "Tax evasion in 2019"
+      ]
     }
-]
+  ]
